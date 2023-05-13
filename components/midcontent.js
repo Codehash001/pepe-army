@@ -4,7 +4,8 @@ import FAQs from "../components/FAQs";
 function Midcontent() {
   return (
     <div className="flex flex-col items-center justify-center w-full">
-      <img src='/ThePepeArmy/thepepearmy-character section.png' className="w-screen h-auto"/>
+      <img src='/ThePepeArmy/thepepearmy-character section.png' className="hidden md:flex w-screen h-auto"/>
+      <img src='/ThePepeArmy/thepepearmy-mobile-character section.png' className="md:hidden w-screen h-auto"/>
       <div className="flex flex-col items-center justify-center w-full">
       <img className='w-screen h-auto relative'
       src="/ThePepeArmy/thepepearmy-middlesection-bg.png"/>
@@ -14,7 +15,8 @@ function Midcontent() {
       </h1>
       </div>
       </div>
-      <img src='/ThePepeArmy/thepepearmy-character section.png' className="w-screen h-auto"/>
+      <img src='/ThePepeArmy/thepepearmy-character section.png' className="hidden md:flex w-screen h-auto"/>
+      <img src='/ThePepeArmy/thepepearmy-mobile-character section.png' className="md:hidden w-screen h-auto"/>
     </div>
   );
 }
