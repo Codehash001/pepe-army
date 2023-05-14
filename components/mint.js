@@ -99,7 +99,7 @@ useEffect(() => {
     setIsMinting(false)
   }
   return (
-    <div className='flex flex-col items-start justify-start md:mt-10 mt-5 text-white border border-white rounded-lg filter md:backdrop-blur-md '>
+    <div className='flex flex-col items-start justify-start mt-5 mb-10 text-white border border-white rounded-lg filter md:backdrop-blur-md '>
       {/* <h1 className='text-white'>mint section</h1> */}
 
       <div className='md:w-[1000px] w-full h-full flex md:flex-row flex-col items-center justify-between rounded-lg'>

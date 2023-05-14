@@ -20,7 +20,7 @@ const ArrowClickedHnadler= () => {
   return (
     <>
       <Head>
-        <title>Turbo Toads NFTs</title>
+        <title>The Pepe Army</title>
         <meta name="Description" content="template" />
         <link rel="icon" href="/favicon.png" />
       </Head>
