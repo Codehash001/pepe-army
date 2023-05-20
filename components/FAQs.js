@@ -27,7 +27,7 @@ export default function FAQs() {
       <Accordion open={open === 1} animate={customAnimation}>
         <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white md:text-[21px]'>
           <div className="w-full flex justify-between">
-            <h1 className='uppercase'>What is Turbo Toad NFT?</h1>
+            <h1 className='uppercase'>What is The Pepe Army?</h1>
             <div>{open == 1 ?
             (
               <svg onClick={() => handleOpen(1)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
@@ -41,11 +41,8 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='text-justify'>
-         <p className={open==1? 'md:pr-4 text-orange-600' : 'h-0 hidden'}>
-         A handcrafted collection of 6,969 characters developed by artist DEXXETH. Each with their own identity to be discovered within their own unique role in the Turboverse. In its purest form, Turbo Toad NFT  is art and the art of storytelling.
-        <br/><br/>
-        DEXXeth invested his own personal money into Turbotoad on launch and got lucky. He was at a life breakpoint. He took his earnings to get himself back into the creation of art and what he loves most. Turbo Toad NFT is a passion project and a way to give back and grow the community of TurboToadToken $TURBO. DEXXeth will continue to create more passion art projects. To stay up to date with Dexx follow him @Dexxeth on Twitter.  
-
+         <p className={open==1? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
+         Created for the community, and the holders of $PEPE, “The PEPE Army '' was born! Unite together, and MEME ALL DAY! THIS IS FINE ART! A handcrafted AAA collection of 10,000 characters developed by artist DEXXETH. Join The Pepe Army and MEME OUT!
          </p>
         </AccordionBody>
       </Accordion>
@@ -54,7 +51,7 @@ export default function FAQs() {
       <Accordion open={open === 2} animate={customAnimation}>
         <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white md:text-[21px]'>
           <div className="w-full flex justify-between">
-            <h1 className='uppercase'>What are the Official Collection Links for Turbo Toad NFT?</h1>
+            <h1 className='uppercase'>What are the Official Collection Links for The Pepe Army?</h1>
             <div>{open == 2 ?
             (
               <svg onClick={() => handleOpen(2)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
@@ -67,8 +64,8 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='flex flex-col items-start'>
-         <p className={open==2? 'md:pr-4 text-orange-600' : 'h-0 hidden'}>
-          <a href="https://opensea.io/collection/turbotoadnft" className="hover:text-blue-300">https://opensea.io/collection/turbotoadnft</a>
+         <p className={open==2? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
+          <a href="https://opensea.io/collection/thepepearmy" className="hover:text-blue-300">https://opensea.io/collection/thepepearmy</a>
          </p>
         </AccordionBody>
       </Accordion>
@@ -77,7 +74,7 @@ export default function FAQs() {
       <Accordion open={open === 3} animate={customAnimation}>
         <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white md:text-[21px]'>
           <div className="w-full flex justify-between">
-            <h1 className='uppercase'>What are the details for the Turbo Toad NFT mint?</h1>
+            <h1 className='uppercase'>What are the details for The Pepe Army mint?</h1>
             <div>{open == 3 ?
             (
               <svg onClick={() => handleOpen(3)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
@@ -90,9 +87,9 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='flex flex-col items-start'>
-         <p className={open==3? 'md:pr-4 text-orange-600' : 'h-0 hidden'}>
+         <p className={open==3? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
           <u1>
-            <li>Supply : 6969</li>
+            <li>Supply : 20K</li>
             <li>Mint Price : .06969 eth</li>
             <li>Mint amount per transaction : 10 </li>
             <li>Max mint amount per wallet : None</li>
@@ -107,7 +104,7 @@ export default function FAQs() {
       <Accordion open={open === 4} animate={customAnimation}>
         <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white md:text-[21px]'>
           <div className="w-full flex justify-between">
-            <h1 className='uppercase'>What is the total supply of Turbo Toad NFT PFPs?</h1>
+            <h1 className='uppercase'>What is the total supply of The Pepe Army PFPs?</h1>
             <div>{open == 4?
             (
               <svg onClick={() => handleOpen(4)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
@@ -120,8 +117,8 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='flex flex-col items-start'>
-         <p className={open==4? 'md:pr-4 text-orange-600' : 'h-0 hidden'}>
-         The maximum possible supply of Turbo Toad NFT PFPs is 6969.
+         <p className={open==4? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
+         The maximum possible supply of Turbo Toad NFT PFPs is 20,000.
          </p>
         </AccordionBody>
       </Accordion>
@@ -129,7 +126,7 @@ export default function FAQs() {
       <Accordion open={open === 5} animate={customAnimation}>
         <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white md:text-[21px]'>
           <div className="w-full flex justify-between">
-            <h1 className='uppercase'>How can I mint my Turbo Toad NFT Character?</h1>
+            <h1 className='uppercase'>How can I mint my Pepe Army Character?</h1>
             <div>{open == 5?
             (
               <svg onClick={() => handleOpen(5)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
@@ -142,8 +139,8 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='flex flex-col items-start'>
-         <p className={open==5? 'md:pr-4 text-orange-600' : 'h-0 hidden'}>
-         Every Turbo Toad NFT holder will be given the opportunity to Mint their Turb Toad NFT on the TURBO TOAD NFT site, Turbotoad.xyz. All holders when complete will be abl to download their Turbo Toad 3D character for future gaming events when the Tubroverse is complete. 
+         <p className={open==5? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
+         Every holder of The Pepe Army will be given the opportunity to mint a maximum of 10 NFT’s per purchase on the The Pepe Army site, thepepearmy.xyz. All holders when complete will be able to download their 3D NFT characters of The Pepe Army for future gaming and MEME EVENTS IN THE METAVERSE!
          </p>
         </AccordionBody>
       </Accordion>
@@ -151,7 +148,7 @@ export default function FAQs() {
       <Accordion open={open === 6} animate={customAnimation}>
         <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white md:text-[21px]'>
           <div className="w-full flex justify-between">
-            <h1 className='uppercase'>Will there be TURBOVERSE? </h1>
+            <h1 className='uppercase'>Will there be a Metaverse for The Pepe Army? </h1>
             <div>{open == 5?
             (
               <svg onClick={() => handleOpen(6)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
@@ -164,12 +161,12 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='flex flex-col items-start'>
-         <p className={open==6? 'md:pr-4 text-orange-600' : 'h-0 hidden'}>
-         With the help of AI and Dexxeth being a past game developer the realism of holders being able to interact with a community of 3D Turbo Toad NFT characters is very much realistic.          </p>
+         <p className={open==6? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
+         Yes </p>
         </AccordionBody>
       </Accordion>
       
-      <Accordion open={open === 7} animate={customAnimation}>
+      {/* <Accordion open={open === 7} animate={customAnimation}>
         <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white md:text-[21px]'>
           <div className="w-full flex justify-between">
             <h1 className='uppercase'>Where can I find other works by artist DexxETH</h1>
@@ -185,10 +182,10 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='flex flex-col items-start'>
-         <p className={open==7? 'md:pr-4 text-orange-600' : 'h-0 hidden'}>
+         <p className={open==7? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
          Check out his discord and Twitter         </p>
         </AccordionBody>
-      </Accordion>
+      </Accordion> */}
 
 
       </div>

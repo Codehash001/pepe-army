@@ -15,8 +15,8 @@ function Midcontent() {
       </h1>
       </div>
       </div>
-      <img src='/ThePepeArmy/thepepearmy-character section.png' className="hidden md:flex w-screen h-auto"/>
-      <img src='/ThePepeArmy/thepepearmy-mobile-character section.png' className="md:hidden w-screen h-auto"/>
+      <img src='/ThePepeArmy/thepepearmy-character section-2-desktop.png' className="hidden md:flex w-screen h-auto"/>
+      <img src='/ThePepeArmy/thepepearmy-mobile-character section-2.png' className="md:hidden w-screen h-auto"/>
     </div>
   );
 }

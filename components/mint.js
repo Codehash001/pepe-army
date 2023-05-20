@@ -104,7 +104,7 @@ useEffect(() => {
 
       <div className='md:w-[1000px] w-full h-full flex md:flex-row flex-col items-center justify-between rounded-lg'>
 <div>
-<img src='/ThePepeArmy/thepepearmy-reveal-image-setup.gif'
+<img src='/ThePepeArmy/thepepearmy-reveal-new.gif'
 className='w-[400px] md:w-[600px] h-auto rounded-lg'/>
 </div>
 
@@ -119,7 +119,7 @@ className='w-[400px] md:w-[600px] h-auto rounded-lg'/>
 
 <div className='flex justify-between w-full font-medium mt-4 md:px-4'>
 <h1 className='md:text-2xl text-center'><span className='font-semibold'>Mint Price</span><br/>.06969 ETH</h1>
-<h1 className='md:text-2xl text-center'><span className='font-semibold'>Total Supply</span><br/>6969</h1>
+<h1 className='md:text-2xl text-center'><span className='font-semibold'>Total Supply</span><br/>20,000</h1>
 <h1 className='md:text-2xl text-center'><span className='font-semibold'>Reveal Time</span><br/>May 2023</h1>
 
 </div>
