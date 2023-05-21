@@ -42,7 +42,7 @@ export default function FAQs() {
         </AccordionHeader>
         <AccordionBody className='text-justify'>
          <p className={open==1? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
-         Created for the community, and the holders of $PEPE, “The PEPE Army '' was born! Unite together, and MEME ALL DAY! THIS IS FINE ART! A handcrafted AAA collection of 10,000 characters developed by artist DEXXETH. Join The Pepe Army and MEME OUT!
+         Created for the community, and the holders of $PEPE, “The PEPE Army '' was born! Unite together, and MEME ALL DAY! THIS IS FINE ART! A handcrafted AAA collection of 15,000 characters developed by artist DEXXETH. Join The Pepe Army and MEME OUT!
          </p>
         </AccordionBody>
       </Accordion>
@@ -89,7 +89,7 @@ export default function FAQs() {
         <AccordionBody className='flex flex-col items-start'>
          <p className={open==3? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
           <u1>
-            <li>Supply : 20K</li>
+            <li>Supply : 15K</li>
             <li>Mint Price : .06969 eth</li>
             <li>Mint amount per transaction : 10 </li>
             <li>Max mint amount per wallet : None</li>
@@ -118,7 +118,7 @@ export default function FAQs() {
         </AccordionHeader>
         <AccordionBody className='flex flex-col items-start'>
          <p className={open==4? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
-         The maximum possible supply of Turbo Toad NFT PFPs is 20,000.
+         The maximum possible supply of Turbo Toad NFT PFPs is 15,000.
          </p>
         </AccordionBody>
       </Accordion>
@@ -190,7 +190,7 @@ export default function FAQs() {
 
       </div>
       <div className="w-screen flex flex-col items-center space-y-10">
-      <a href="https://opensea.io/collection/turbotoadnft">
+      <a href="https://opensea.io/collection/thepepearmy">
       <button className="border-4 border-white px-8 py-4 rounded-3xl flex justify-center items-center">
         <h1 className="text-white font-semibold text-xl md:text-2xl">View On Opensea</h1>
         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" className="fill-white"><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path></svg>
