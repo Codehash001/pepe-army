@@ -118,7 +118,7 @@ export default function FAQs() {
         </AccordionHeader>
         <AccordionBody className='flex flex-col items-start'>
          <p className={open==4? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
-         The maximum possible supply of Turbo Toad NFT PFPs is 15,000.
+         The maximum possible supply of The Pepe Army PFPs is 15,000.
          </p>
         </AccordionBody>
       </Accordion>
