@@ -61,3 +61,22 @@ html{
   width: 100%;
   margin-bottom: 5px;
 }
+
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #a9f5b3; /* Color of the track */
+ } 
+
+::-webkit-scrollbar-thumb {
+  background: #6cdf90; /* Color of the scroll thumb */
+  border-radius: 4px; /* Rounded corners of the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #037b2d; /* Color of the scroll thumb on hover */
+}
