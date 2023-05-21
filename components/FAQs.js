@@ -90,7 +90,7 @@ export default function FAQs() {
          <p className={open==3? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
           <u1>
             <li>Supply : 15K</li>
-            <li>Mint Price : .06969 eth</li>
+            <li>Mint Price : .042069 Eth</li>
             <li>Mint amount per transaction : 10 </li>
             <li>Max mint amount per wallet : None</li>
             <li>Mint type : Stealth</li>
