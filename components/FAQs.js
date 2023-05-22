@@ -42,7 +42,7 @@ export default function FAQs() {
         </AccordionHeader>
         <AccordionBody className='text-justify'>
          <p className={open==1? 'md:pr-4 text-gray-200' : 'h-0 hidden'}>
-         Created for the community, and the holders of $PEPE, “The PEPE Army '' was born! Unite together, and MEME ALL DAY! THIS IS FINE ART! A handcrafted AAA collection of 15,000 characters developed by artist DEXXETH. Join The Pepe Army and MEME OUT!
+         Created for the community, and the holders of $PEPE, “The PEPE Army '' was born! Unite together, and MEME ALL DAY! THIS IS FINE ART! A handcrafted AAA collection of 15,000 characters developed by artist DEXX ART. Join The Pepe Army and MEME OUT!
          </p>
         </AccordionBody>
       </Accordion>
