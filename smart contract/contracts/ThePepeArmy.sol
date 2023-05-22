@@ -8,16 +8,16 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 import "operator-filter-registry/src/DefaultOperatorFilterer.sol";
 
-contract Turbotoad is ERC721A, Ownable, ReentrancyGuard, DefaultOperatorFilterer {
+contract ThePepeArmy is ERC721A, Ownable, ReentrancyGuard, DefaultOperatorFilterer {
   using Strings for uint256;
 
   string public baseURI;
   string public baseExtension = ".json";
   string public notRevealedUri = "ipfs://notrevealeduri/ ";      // add not revealed uri
 
-  uint256 public PublicMintCost = 0.069 ether;
+  uint256 public PublicMintCost = 0.042069 ether;
 
-  uint256 public maxSupply = 6969;
+  uint256 public maxSupply = 15000;
 
   uint256 public MaxperWallet_PublicMint = 5;
 
@@ -28,7 +28,7 @@ contract Turbotoad is ERC721A, Ownable, ReentrancyGuard, DefaultOperatorFilterer
 
   constructor(
     string memory _initBaseURI
-  ) ERC721A("Turbotoad", "turbotoad") {
+  ) ERC721A("ThePepeArmy", "thepepearmy") {
     setBaseURI(_initBaseURI);
     
   }
