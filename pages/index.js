@@ -26,7 +26,7 @@ const ArrowClickedHnadler= () => {
       </Head>
       
         <div className="min-h-autto bg-cover bg-[#509a44] bg-center md:px-16 px-4 md:py-8 py-4 flex flex-col items-center md:justify-start justify-center">
-        <img src='/ThePepeArmy/thepepearmy-logo.png' className="md:w-[250px] w-[180px] h-auto mb-5"/>
+        <img src='/ThePepeArmy/thepepearmy-logo-new.png' className="md:w-[250px] w-[180px] h-auto mb-5"/>
         {/* <h1 className="text-white text-lg md:mb-[100px] font-semibold"> Welcome to a web3 experience</h1> */}
           <div className="flex flex-col items-center">
           {/* mint section */}
