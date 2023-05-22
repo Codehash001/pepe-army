@@ -11,7 +11,7 @@ function Midcontent() {
       src="/ThePepeArmy/thepepearmy-middlesection-bg.png"/>
       <div className="absolute px-16">
       <h1 className="text-white text-center md:text-3xl">
-        <span className=" font-bold">THE PEPE ARMY NFT </span>holders are granted commercial rights and a 3D character for future Augmented reality and gaming events.
+        <span className=" font-bold">THE PEPE ARMY NFT </span>holders will be granted a 3D character to come for future Augmented reality and gaming experiences.
       </h1>
       </div>
       </div>
