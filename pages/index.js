@@ -22,7 +22,7 @@ const ArrowClickedHnadler= () => {
       <Head>
         <title>The Pepe Army</title>
         <meta name="Description" content="template" />
-        <link rel="icon" href="/ThePepeArmy/thepepearmynft-favicon.png" />
+        <link rel="icon" href="/ThePepeArmy/thepepearmynft-favicon-new-2.png" />
       </Head>
       
         <div className="min-h-autto bg-cover bg-[#509a44] bg-center md:px-16 px-4 md:py-8 py-4 flex flex-col items-center md:justify-start justify-center">

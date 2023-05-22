@@ -200,7 +200,9 @@ export default function FAQs() {
       <h1 className="text-gray-400 font-semibold text-sm text-center py-4">
         This is an Web3 Experience
         <br/>
-        Created by Dexx and The Internet Gallery
+        Created by Dexx ART and The Internet Gallery for the PEPE community
+        <br/><br/>
+        ALL RIGHTS RESERVED, 	&copy;2023 THE PEPE ARMY
       </h1>
 
       </div>
